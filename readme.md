@@ -1,4 +1,4 @@
-# 🗨️ p2p-chat — Proof of Concept (POC)
+# 🗨️ peep-chat — Proof of Concept (POC)
 
 A simple command-line **peer-to-peer chat** using [go-libp2p](https://github.com/libp2p/go-libp2p).
 
@@ -51,8 +51,10 @@ p2p-chat.exe
 
 # On Linux/macOS:
 ./p2p-chat
-
-Commands (interactive):
+```
+---
+###  Commands (interactive)
+```text
   peers                  - list connected peers
   invite                 - print a copy-paste invite multiaddr
   connect <multiaddr>    - connect to a peer using their invite string
@@ -62,6 +64,8 @@ Commands (interactive):
   id                     - prints your peer ID
   help                   - this help
   quit                   - exit
+```
+---
 
 NOTES:
 
