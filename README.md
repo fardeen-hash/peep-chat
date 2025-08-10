@@ -99,4 +99,3 @@ TODO (next steps I can implement on request):
 - Better indexing for multiple messages instead of rewriting one large DHT value
 - Integrated relay discovery and auto-relay selection for NATed peers
 
-
