@@ -39,11 +39,11 @@ This is a single-file POC to demonstrate decentralized messaging with libp2p, in
 
 ```bash
 # 1. Set up Go modules
-go mod init p2p-chat
+go mod init peep-chat
 go get
 
 # 2. Build the binary
-go build -o p2p-chat main.go
+go build -o peep-chat main.go
 
 # 3. Run it
 # On Windows:
